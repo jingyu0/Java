@@ -1,0 +1,5 @@
+1.welcome.java(servlet)
+等价于counter.java（servlet)与welcome.jsp(网页部分，计数值从counter.java中传过来）
+
+
+2.

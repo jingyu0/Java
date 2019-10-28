@@ -1,0 +1,45 @@
+<html>
+<head>
+<title>已开户用户登录界面</title>
+<SCRIPT>
+//检查用户是否已经输入帐号和密码的函数
+function checkpass()
+{
+	if((form.txtAcNo.value=="")||(form.txtPwd.value==""))
+	{
+		alert("请录入完整信息!");
+	}
+	
+	else
+	{
+		form.submit();
+	}
+}
+
+</script>
+</head>
+<body>
+<table border="0" width="100%">
+  <tr>
+    <td height="80"  ><img border="0" src="personal.jpg" width="463" height="97"></td>
+  </tr>
+    <tr>
+  </tr>
+
+</table>
+<HR color="#FF9900" size="3">
+
+<form name="form" method="POST" action="login.jsp" >
+ 
+  <p >
+  请输入登录信息：<p >
+  <em>帐户 </em><input type="text" name="txtAcNo" size="20"> <br>      
+  <em>      
+  密码 </em><input type="password" name="txtPwd" size="20"> 
+  <p align="center">
+   <input type="button" value="提交" name="B1" onClick="checkpass()">   
+   <input type="reset" value="清空" name="B2"></p> 
+</form>
+ <p align="right"> <a href="Home_page.html">联合银行主页</a>
+</body>
+</html>

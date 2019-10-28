@@ -1,0 +1,123 @@
+<html>
+
+<head>
+<title>货币兑换计算界面</title>
+
+</head>
+
+<body>
+<SCRIPT>
+function checkpass()
+{
+fSelectedIndex=form.FromCur.selectedIndex;
+tSelectedIndex=form.ToCur.selectedIndex;
+if(form.amount.value=="")
+	{
+		alert("请录入完整信息!");
+	}
+	
+	else if (form.FromCur.options[fSelectedIndex].value==form.ToCur.options[tSelectedIndex].value)
+	{
+		alert("相同币种不需要计算！");
+	}
+    else if (!isValidDouble(form.amount.value))
+	{
+		alert("兑换数量应该是一个合法的实数！");
+	}
+	else
+	{
+		form.submit();
+	}
+}
+//判断是否是一个合法的实数
+function isValidDouble(str)
+{
+	flag=true;
+	dotNum=0;
+	for (i=0;i<str.length;i++)
+	{
+		ch=str.charAt(i);
+		if (ch=='.')
+		{
+			dotNum=dotNum+1;
+			if (dotNum>1) 
+			{
+				flag=false;
+				break;
+			}
+		}
+		else if (!isNumeric(ch))
+		{
+			flag=false;
+			break;
+		}
+	}
+	return flag;
+}
+//判断一个字符是否是一个数字
+//下面函数判断是否是一个数字 
+ function isNumeric(ch)
+ {
+	flag=false;
+	if (ch<='9'&&ch>='0')
+	{
+		flag=true;
+	}
+	return flag;
+ }
+
+</script>
+
+
+
+<table border="0" width="100%" height="44">
+  <tr>
+    <td height="40">
+      <p align="center"><b><font size="5" color="#FF9900">货币兑换计算器</font></b></td>
+  </tr>
+</table>
+<HR color="#FF9900">
+
+<form name="form" method="POST" action="Exchange_cal.jsp">
+ 
+<p>
+ <p>请输入原币、待兑换的目标币和兑换的数量：
+ <p>
+ 
+ <em>
+ 
+ 以</em>&nbsp; &nbsp;&nbsp; <select size="1" name="FromCur">
+     <option value="美元" selected>美元</option>
+    <option value="港币">港币</option>
+    <option value="日元">日元</option>
+    <option value="欧元">欧元</option>
+    <option value="港币">英镑</option>
+    <option value="英镑">澳元</option>
+    <option value="瑞郎">瑞郎</option>
+    <option value="新元">新元</option>
+    <option value="加元">加元</option>
+  </select><br>
+
+ <em>
+
+  兑换</em>&nbsp;&nbsp; <select size="1" name="ToCur"> 
+    <option value="美元" selected>美元</option>
+    <option value="港币">港币</option>
+    <option value="日元">日元</option>
+    <option value="欧元">欧元</option>
+    <option value="港币">英镑</option>
+    <option value="英镑">澳元</option>
+    <option value="瑞郎">瑞郎</option>
+    <option value="新元">新元</option>
+    <option value="加元">加元</option>
+  </select><br>
+ <em>
+  数量</em>&nbsp;&nbsp; <input type="text" name="amount" size="20">           
+  <p align="center">
+   <input type="button" value="计算" name="B1" onClick="checkpass()">  
+   <input type="reset" value="清空" name="B2"> 
+  </form>
+ <HR color="#FF9900">
+</body>
+
+</html>

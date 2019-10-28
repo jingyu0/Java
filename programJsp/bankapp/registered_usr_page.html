@@ -1,0 +1,78 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="zh-cn">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<meta name="GENERATOR" content="Microsoft FrontPage 4.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<title>已开户用户注册界面</title>
+
+<SCRIPT>
+function checkpass()
+{
+if((form.acNo.value=="")||(form.pwd.value=="")||((form.pwd.value)!=(form.cnPwd.value))||(form.cnPwd.value=="")||(form.name.value==""))
+	{
+		alert("请检查是否输入完整信息或密码是否匹配!");
+	}
+	
+	else
+	{
+		form.submit();
+	}
+}
+
+</script>
+</head>
+
+<body>
+
+<table border="0" width="100%">
+  <tr>
+    <td width="50%"><b><i><font size="5">联合银行</font></i></b></td>
+    <td width="50%">　</td>
+  </tr>
+  <tr>
+    <td width="100%" colspan="2">
+      <p align="center"><b><font size="4">已开户用户注册界面</font></b></td>
+  </tr>
+</table>
+<p align="left">&nbsp;&nbsp;&nbsp; </p>
+<form name="form" method="POST" action="register_page.jsp">
+    <p align="left" style="line-height: 100%; margin-top: 4; margin-bottom: 4"><font size="3">
+  帐户：&nbsp;&nbsp;&nbsp; <input type="text" name="acNo" size="20"></font></p>  
+    <p align="left" style="line-height: 100%; margin-top: 4; margin-bottom: 4"><font size="3">姓名：&nbsp;&nbsp;</font><font face="宋体" size="3">&nbsp; 
+  <input type="text" name="name" size="20"></font></p> 
+
+   <p align="left" style="line-height: 100%; margin-top: 4; margin-bottom: 4"><font size="3">
+  分支银行：<select size="1" name="branch">
+           <option  selected>深圳</option>
+		   <option>上海</option>
+		   <option>重庆</option>
+		   <option>武汉</option>
+		   <option>北京</option>
+		   <option>广州</option>
+  </select>&nbsp;</font></p>
+  <p align="left" style="line-height: 100%; margin-top: 4; margin-bottom: 4"><font size="3">
+  帐户类型：<select size="1" name="acType">
+  		   <option selected>储蓄帐户</option>
+		   <option>支票帐户</option>
+		   <option>定期帐户</option>
+		   <option>零存整取</option>
+		   <option>个人贷款</option>
+		   <option>住房贷款</option>
+		   <option>消费贷款</option>
+		   <option>汽车贷款</option>
+  </select>&nbsp;</font></p>
+   <p align="left" style="line-height: 100%; margin-top: 4; margin-bottom: 4"><font size="3">
+  密码：&nbsp;&nbsp;&nbsp; <input type="password" name="pwd" size="20"></font></p>  
+  <p align="left" style="line-height: 100%; margin-top: 4; margin-bottom: 4"><font size="3">
+  密码确认：<input type="password" name="cnPwd" size="20"></font></p>
+
+  <p align="center">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="button" value="提交" name="B1" onClick="checkpass()">
+  <input type="reset" value="重写" name="B2"></p>
+</form>
+ <p align="right"> <a href="Home_page.html">联合银行主页</a>
+
+</body>
+
+</html>

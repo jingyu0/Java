@@ -1,0 +1,17 @@
+<%@ page contentType="text/html;charset=GB2312" %>
+<%!
+public String chString(String s)
+{
+   String str=s;
+   try
+   {
+      byte b[]=str.getBytes("ISO-8859-1");
+      str=new String(b);
+      return str;
+   }
+   catch(Exception e)
+   {
+     return str;
+   }
+}
+%>

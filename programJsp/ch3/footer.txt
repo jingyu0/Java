@@ -1,0 +1,5 @@
+<%@ page contentType="text/html;charset=GB2312" %>
+      <br class="clearfloat" />
+      <div id="footer">        
+         <p>清华大学出版社《jsp编程技术教程》教材编写组 2008年8月8日</p>
+      </div>

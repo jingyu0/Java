@@ -1,0 +1,104 @@
+<HTML>
+<head>
+<title>利息计算界面</title>
+</head>
+<body>
+<SCRIPT>
+function checkpass()
+{
+	//判断用户是否输入
+	if((form.amount.value=="")||(form.period.value==""))
+	{	
+		alert("请录入完整信息!");	
+	}	
+	//判断输入的本金是否是一个实数
+	else if (!isValidDouble(form.amount.value))
+	{
+		alert("本金应该是一个合法的实数！");
+	}
+	//判断输入的存期是否是一个整数
+	else if (!isValidINT(form.period.value))
+	{
+		alert("存期应该是一个整数!");
+	}
+	else
+	{		
+		form.submit();	
+	}
+}
+//下面函数检查输入是否是一个合法的实数
+function isValidDouble(str)
+{
+	flag=true;
+	dotNum=0;
+	for (i=0;i<str.length;i++)
+	{
+		ch=str.charAt(i);
+		if (ch=='.')
+		{
+			dotNum=dotNum+1;
+			if (dotNum>1) 
+			{
+				flag=false;
+				break;
+			}
+		}
+		else if (!isNumeric(ch))
+		{
+			flag=false;
+			break;
+		}
+	}
+	return flag;
+}
+//下面函数判断是否是一个合法的整数
+function isValidINT(str)
+{
+	flag=true;
+	for (i=0;i<str.length;i++)
+	{
+		ch=str.charAt(i);
+		if (!isNumeric(ch))
+		{
+			flag=false;
+			break;
+		}
+	}
+	return flag;
+}
+//下面函数判断是否是一个数字 
+ function isNumeric(ch)
+ {
+	flag=false;
+	if (ch<='9'&&ch>='0')
+	{
+		flag=true;
+	}
+	return flag;
+}
+</script>
+<table border="0" width="100%">
+	<tr>    
+	<td width="100%"> <p align="center"><b><font size="5" color="#FF9900">利息计算</font></b></td> 
+	</tr>
+</table>
+<HR color="#FF9900">
+<p>
+<form name="form" method="POST" action="Interest_cal.jsp">  
+     请输入币种，存期和本金
+     <p>  
+     <em>币种</em>    
+	<select size="1" name="currency">   
+		<option selected>人民币</option>   
+		<option>港币</option>  
+		<option>美圆</option> 
+	</select><br>  
+     <em>存期</em>   <input type="text" name="period" size="20">(月)<br>     
+     <em>本金</em> <input type="text" name="amount" size="20">     
+	<p align="center">   <input type="button" value="计算" name="B1" onClick="checkpass()">   
+	<input type="reset" value="清空" name="B2">
+	</p>  
+</form> 
+<HR color="#FF9900">
+</body>
+</HTML>

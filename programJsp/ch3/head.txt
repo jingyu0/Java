@@ -1,0 +1,2 @@
+<%@ page contentType="text/html;charset=GB2312" %>
+<h1>XX省职称计算机考试报名系统</h1>

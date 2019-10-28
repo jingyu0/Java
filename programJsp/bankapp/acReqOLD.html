@@ -1,0 +1,90 @@
+<html>
+<head>
+<title>申请开户界面</title>
+<SCRIPT SRC="check.js"></SCRIPT>
+<SCRIPT>
+//检查用户是否已经输入帐号和密码的函数
+function checkpass()
+{
+	if((form.ownerName.value=="")||(form.idNo.value=="")||(form.address.value=="")||(form.mail.value=="")||(form.mail.value==""))
+	{
+		alert("请录入完整信息!");
+	}
+	else if(!isNumberic(form.idNo.value))
+	{
+		alert("身份证号码应该全是数字!");
+	}
+	else if(!isNumberic(form.phone.value))
+	{
+		alert("电话号码应该全是数字!");
+	}
+	else  if((form.mail.value.indexOf("@")==-1)||(form.mail.value.indexOf(".")==-1))
+	{
+		alert("邮箱地址地址不对!");
+	}
+	else
+	{
+		form.submit();
+	}
+}
+</script>
+</head>
+<body>
+<table border="0" width="100%">
+  <tr>
+    <td width="62%"><b><font size="5">联合银行</font></b></td>
+    <td width="38%" rowspan="2"><img border="0" src="acReq.jpg" width="188" height="80"></td>
+  </tr>
+  <tr>
+    <td width="50%" align="center">
+      <b><font size="4">申请开户</font></b></td>
+  </tr>
+  <tr>
+    <td width="88%" align="center" colspan="2">
+<HR color="#FF9900" size="5">
+    </td>
+  </tr>
+  <tr>
+    <td width="88%" align="left" colspan="2">
+      请输入申请开户信息:</td>
+  </tr>
+</table>
+<form name="form" method="GET" action="saveAcReq.jsp" >
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <em>姓名&nbsp;</em> <input type="text" name="ownerName" size="20">       
+  &nbsp;  
+  <br >
+  &nbsp;<em>身份证号码</em> <input type="text" name="idNo" size="18"> 
+  &nbsp;  
+  <br >
+  &nbsp; <em>分支银行&nbsp; </em><select size="1" name="branch">  
+           <option  selected>深圳</option>
+		   <option>上海</option>
+		   <option>重庆</option>
+		   <option>武汉</option>
+		   <option>北京</option>
+		   <option>广州</option>
+</select>
+  <br>
+  &nbsp;<em> 帐户类型&nbsp; </em><select size="1" name="accountType"><option selected>储蓄帐户</option> 
+		   <option>支票帐户</option>
+		   <option>定期帐户</option>
+		   <option>零存整取</option>
+		   <option>个人贷款</option>
+		   <option>住房贷款</option>
+		   <option>消费贷款</option>
+		   <option>汽车贷款</option>
+  </select>&nbsp;
+  <br >
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <em>住址</em>&nbsp; <input type="text" name="address" size="60">  
+  &nbsp;  
+  <br >
+  &nbsp;<em> 联系电话&nbsp; </em><input type="text" name="phone" size="15"> 
+  &nbsp;  
+  <br >
+  &nbsp; <em>邮箱地址</em>&nbsp; <input type="text" name="mail" size="35"> <P>  
+    <input type="button" value="提交信息" name="B1" onClick="checkpass()">   
+   <input type="reset" value="全部重写" name="B2">   
+</form>
+ <p align="right"> <a href="Home_page.html">联合银行主页</a>
+</body>
+</html>

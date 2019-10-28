@@ -1,0 +1,6 @@
+package mybean;
+import java.io.*;
+
+public class mybean {
+
+}

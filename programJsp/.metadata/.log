@@ -1,0 +1,385 @@
+!SESSION 2008-08-10 23:02:53.890 -----------------------------------------------
+eclipse.buildId=M20070921-1145
+java.version=1.5.0_11
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2008-08-10 23:03:39.750
+!MESSAGE Installed snippet library: E:\MyEclipse 6.0\myeclipse\eclipse\plugins\com.genuitec.eclipse.wizards_6.0.1.zmyeclipse601200710\snippets\html\css_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2008-08-10 23:03:39.906
+!MESSAGE Installed snippet library: E:\MyEclipse 6.0\myeclipse\eclipse\plugins\com.genuitec.eclipse.wizards_6.0.1.zmyeclipse601200710\snippets\html\forms_lists_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2008-08-10 23:03:39.984
+!MESSAGE Installed snippet library: E:\MyEclipse 6.0\myeclipse\eclipse\plugins\com.genuitec.eclipse.wizards_6.0.1.zmyeclipse601200710\snippets\html\htmlform_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2008-08-10 23:03:40.093
+!MESSAGE Installed snippet library: E:\MyEclipse 6.0\myeclipse\eclipse\plugins\com.genuitec.eclipse.wizards_6.0.1.zmyeclipse601200710\snippets\html\html_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2008-08-10 23:03:40.171
+!MESSAGE Installed snippet library: E:\MyEclipse 6.0\myeclipse\eclipse\plugins\com.genuitec.eclipse.wizards_6.0.1.zmyeclipse601200710\snippets\html\javascript_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2008-08-10 23:03:40.250
+!MESSAGE Installed snippet library: E:\MyEclipse 6.0\myeclipse\eclipse\plugins\com.genuitec.eclipse.wizards_6.0.1.zmyeclipse601200710\snippets\jsp\jsf_f_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2008-08-10 23:03:40.343
+!MESSAGE Installed snippet library: E:\MyEclipse 6.0\myeclipse\eclipse\plugins\com.genuitec.eclipse.wizards_6.0.1.zmyeclipse601200710\snippets\jsp\jsf_h_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2008-08-10 23:03:40.437
+!MESSAGE Installed snippet library: E:\MyEclipse 6.0\myeclipse\eclipse\plugins\com.genuitec.eclipse.wizards_6.0.1.zmyeclipse601200710\snippets\jsp\struts_bean_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2008-08-10 23:03:40.515
+!MESSAGE Installed snippet library: E:\MyEclipse 6.0\myeclipse\eclipse\plugins\com.genuitec.eclipse.wizards_6.0.1.zmyeclipse601200710\snippets\jsp\struts_html_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2008-08-10 23:03:40.609
+!MESSAGE Installed snippet library: E:\MyEclipse 6.0\myeclipse\eclipse\plugins\com.genuitec.eclipse.wizards_6.0.1.zmyeclipse601200710\snippets\jsp\struts_logic_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2008-08-10 23:03:40.687
+!MESSAGE Installed snippet library: E:\MyEclipse 6.0\myeclipse\eclipse\plugins\com.genuitec.eclipse.wizards_6.0.1.zmyeclipse601200710\snippets\jsp\struts_tiles_snippets.xml
+
+!ENTRY com.tikal.eclipse.updatemanager.quicksetup 4 4 2008-08-10 23:03:50.156
+!MESSAGE Network connection problems encountered during search.
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2008-08-10 23:04:35.640
+!MESSAGE Internal Error
+!STACK 0
+java.lang.reflect.InvocationTargetException
+	at org.eclipse.jface.operation.ModalContext.runInCurrentThread(ModalContext.java:381)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:313)
+	at org.eclipse.jface.wizard.WizardDialog.run(WizardDialog.java:934)
+	at com.genuitec.eclipse.core.portability.NewElementWizard.performFinish(NewElementWizard.java:112)
+	at org.eclipse.jface.wizard.WizardDialog.finishPressed(WizardDialog.java:742)
+	at org.eclipse.jface.wizard.WizardDialog.buttonPressed(WizardDialog.java:373)
+	at org.eclipse.jface.dialogs.Dialog$2.widgetSelected(Dialog.java:616)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:227)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:66)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:938)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3682)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3293)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:820)
+	at org.eclipse.jface.window.Window.open(Window.java:796)
+	at org.eclipse.ui.internal.actions.NewWizardShortcutAction.run(NewWizardShortcutAction.java:135)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:498)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:546)
+	at org.eclipse.jface.action.ActionContributionItem.access$2(ActionContributionItem.java:490)
+	at org.eclipse.jface.action.ActionContributionItem$5.handleEvent(ActionContributionItem.java:402)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:66)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:938)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3682)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3293)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2389)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2353)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2219)
+	at org.eclipse.ui.internal.Workbench$4.run(Workbench.java:466)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:289)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:461)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:106)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:169)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:106)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:76)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:363)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:176)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:508)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:447)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1173)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1148)
+Caused by: java.lang.IllegalArgumentException: Path must include project and resource name: /ch5
+	at org.eclipse.core.runtime.Assert.isLegal(Assert.java:62)
+	at org.eclipse.core.internal.resources.Workspace.newResource(Workspace.java:1625)
+	at org.eclipse.core.internal.resources.Container.getFolder(Container.java:130)
+	at com.genuitec.eclipse.j2eedt.core.builder.WebProjectBuilder.createWelcomePage(Unknown Source)
+	at com.genuitec.eclipse.j2eedt.core.builder.WebProjectBuilder.create(Unknown Source)
+	at com.genuitec.eclipse.j2eedt.ui.wizard.NewWebProjectWizard.finishPage(Unknown Source)
+	at com.genuitec.eclipse.core.portability.NewElementWizard$2.run(NewElementWizard.java:105)
+	at org.eclipse.jdt.internal.core.BatchOperation.executeOperation(BatchOperation.java:39)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:720)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1797)
+	at org.eclipse.jdt.core.JavaCore.run(JavaCore.java:4466)
+	at org.eclipse.jdt.internal.ui.actions.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:87)
+	at org.eclipse.jface.operation.ModalContext.runInCurrentThread(ModalContext.java:369)
+	... 43 more
+Root exception:
+java.lang.IllegalArgumentException: Path must include project and resource name: /ch5
+	at org.eclipse.core.runtime.Assert.isLegal(Assert.java:62)
+	at org.eclipse.core.internal.resources.Workspace.newResource(Workspace.java:1625)
+	at org.eclipse.core.internal.resources.Container.getFolder(Container.java:130)
+	at com.genuitec.eclipse.j2eedt.core.builder.WebProjectBuilder.createWelcomePage(Unknown Source)
+	at com.genuitec.eclipse.j2eedt.core.builder.WebProjectBuilder.create(Unknown Source)
+	at com.genuitec.eclipse.j2eedt.ui.wizard.NewWebProjectWizard.finishPage(Unknown Source)
+	at com.genuitec.eclipse.core.portability.NewElementWizard$2.run(NewElementWizard.java:105)
+	at org.eclipse.jdt.internal.core.BatchOperation.executeOperation(BatchOperation.java:39)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:720)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1797)
+	at org.eclipse.jdt.core.JavaCore.run(JavaCore.java:4466)
+	at org.eclipse.jdt.internal.ui.actions.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:87)
+	at org.eclipse.jface.operation.ModalContext.runInCurrentThread(ModalContext.java:369)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:313)
+	at org.eclipse.jface.wizard.WizardDialog.run(WizardDialog.java:934)
+	at com.genuitec.eclipse.core.portability.NewElementWizard.performFinish(NewElementWizard.java:112)
+	at org.eclipse.jface.wizard.WizardDialog.finishPressed(WizardDialog.java:742)
+	at org.eclipse.jface.wizard.WizardDialog.buttonPressed(WizardDialog.java:373)
+	at org.eclipse.jface.dialogs.Dialog$2.widgetSelected(Dialog.java:616)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:227)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:66)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:938)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3682)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3293)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:820)
+	at org.eclipse.jface.window.Window.open(Window.java:796)
+	at org.eclipse.ui.internal.actions.NewWizardShortcutAction.run(NewWizardShortcutAction.java:135)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:498)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:546)
+	at org.eclipse.jface.action.ActionContributionItem.access$2(ActionContributionItem.java:490)
+	at org.eclipse.jface.action.ActionContributionItem$5.handleEvent(ActionContributionItem.java:402)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:66)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:938)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3682)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3293)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2389)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2353)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2219)
+	at org.eclipse.ui.internal.Workbench$4.run(Workbench.java:466)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:289)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:461)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:106)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:169)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:106)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:76)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:363)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:176)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:508)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:447)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1173)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1148)
+
+!ENTRY org.eclipse.wst.internet.cache 1 0 2008-08-10 23:04:42.406
+!MESSAGE wtp.autotest.noninteractive is set. Licenses dialogs will not be displayed.
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2008-08-10 23:06:56.828
+!MESSAGE Internal Error
+!STACK 0
+java.lang.reflect.InvocationTargetException
+	at org.eclipse.jface.operation.ModalContext.runInCurrentThread(ModalContext.java:381)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:313)
+	at org.eclipse.jface.wizard.WizardDialog.run(WizardDialog.java:934)
+	at com.genuitec.eclipse.core.portability.NewElementWizard.performFinish(NewElementWizard.java:112)
+	at org.eclipse.jface.wizard.WizardDialog.finishPressed(WizardDialog.java:742)
+	at org.eclipse.jface.wizard.WizardDialog.buttonPressed(WizardDialog.java:373)
+	at org.eclipse.jface.dialogs.Dialog$2.widgetSelected(Dialog.java:616)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:227)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:66)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:938)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3682)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3293)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:820)
+	at org.eclipse.jface.window.Window.open(Window.java:796)
+	at org.eclipse.ui.internal.actions.NewWizardShortcutAction.run(NewWizardShortcutAction.java:135)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:498)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:546)
+	at org.eclipse.jface.action.ActionContributionItem.access$2(ActionContributionItem.java:490)
+	at org.eclipse.jface.action.ActionContributionItem$5.handleEvent(ActionContributionItem.java:402)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:66)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:938)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3682)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3293)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2389)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2353)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2219)
+	at org.eclipse.ui.internal.Workbench$4.run(Workbench.java:466)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:289)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:461)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:106)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:169)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:106)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:76)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:363)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:176)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:508)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:447)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1173)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1148)
+Caused by: java.lang.IllegalArgumentException: Path must include project and resource name: /ch5
+	at org.eclipse.core.runtime.Assert.isLegal(Assert.java:62)
+	at org.eclipse.core.internal.resources.Workspace.newResource(Workspace.java:1625)
+	at org.eclipse.core.internal.resources.Container.getFolder(Container.java:130)
+	at com.genuitec.eclipse.j2eedt.core.builder.WebProjectBuilder.createWelcomePage(Unknown Source)
+	at com.genuitec.eclipse.j2eedt.core.builder.WebProjectBuilder.create(Unknown Source)
+	at com.genuitec.eclipse.j2eedt.ui.wizard.NewWebProjectWizard.finishPage(Unknown Source)
+	at com.genuitec.eclipse.core.portability.NewElementWizard$2.run(NewElementWizard.java:105)
+	at org.eclipse.jdt.internal.core.BatchOperation.executeOperation(BatchOperation.java:39)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:720)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1797)
+	at org.eclipse.jdt.core.JavaCore.run(JavaCore.java:4466)
+	at org.eclipse.jdt.internal.ui.actions.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:87)
+	at org.eclipse.jface.operation.ModalContext.runInCurrentThread(ModalContext.java:369)
+	... 43 more
+Root exception:
+java.lang.IllegalArgumentException: Path must include project and resource name: /ch5
+	at org.eclipse.core.runtime.Assert.isLegal(Assert.java:62)
+	at org.eclipse.core.internal.resources.Workspace.newResource(Workspace.java:1625)
+	at org.eclipse.core.internal.resources.Container.getFolder(Container.java:130)
+	at com.genuitec.eclipse.j2eedt.core.builder.WebProjectBuilder.createWelcomePage(Unknown Source)
+	at com.genuitec.eclipse.j2eedt.core.builder.WebProjectBuilder.create(Unknown Source)
+	at com.genuitec.eclipse.j2eedt.ui.wizard.NewWebProjectWizard.finishPage(Unknown Source)
+	at com.genuitec.eclipse.core.portability.NewElementWizard$2.run(NewElementWizard.java:105)
+	at org.eclipse.jdt.internal.core.BatchOperation.executeOperation(BatchOperation.java:39)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:720)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1797)
+	at org.eclipse.jdt.core.JavaCore.run(JavaCore.java:4466)
+	at org.eclipse.jdt.internal.ui.actions.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:87)
+	at org.eclipse.jface.operation.ModalContext.runInCurrentThread(ModalContext.java:369)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:313)
+	at org.eclipse.jface.wizard.WizardDialog.run(WizardDialog.java:934)
+	at com.genuitec.eclipse.core.portability.NewElementWizard.performFinish(NewElementWizard.java:112)
+	at org.eclipse.jface.wizard.WizardDialog.finishPressed(WizardDialog.java:742)
+	at org.eclipse.jface.wizard.WizardDialog.buttonPressed(WizardDialog.java:373)
+	at org.eclipse.jface.dialogs.Dialog$2.widgetSelected(Dialog.java:616)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:227)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:66)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:938)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3682)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3293)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:820)
+	at org.eclipse.jface.window.Window.open(Window.java:796)
+	at org.eclipse.ui.internal.actions.NewWizardShortcutAction.run(NewWizardShortcutAction.java:135)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:498)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:546)
+	at org.eclipse.jface.action.ActionContributionItem.access$2(ActionContributionItem.java:490)
+	at org.eclipse.jface.action.ActionContributionItem$5.handleEvent(ActionContributionItem.java:402)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:66)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:938)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3682)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3293)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2389)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2353)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2219)
+	at org.eclipse.ui.internal.Workbench$4.run(Workbench.java:466)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:289)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:461)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:106)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:169)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:106)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:76)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:363)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:176)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:508)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:447)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1173)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1148)
+
+!ENTRY org.eclipse.jdt.core 4 1008 2008-08-10 23:10:30.578
+!MESSAGE Cannot retrieve the attached javadoc for Boolean {key=Ljava/lang/Boolean;} [in Boolean.class [in java.lang [in E:\MyEclipse 6.0\jre\lib\rt.jar]]]java.net.UnknownHostException: java.sun.com
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at sun.net.NetworkClient.doConnect(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.<init>(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source)
+	at org.eclipse.jdt.internal.core.JavaElement.getURLContents(JavaElement.java:742)
+	at org.eclipse.jdt.internal.core.BinaryType.getJavadocContents(BinaryType.java:1060)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:972)
+	at org.eclipse.jdt.ui.JavadocContentAccess.getHTMLContentReader(JavadocContentAccess.java:120)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:176)
+	at org.eclipse.jdt.internal.ui.text.java.hover.AbstractJavaEditorTextHover.getHoverInfo(AbstractJavaEditorTextHover.java:125)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo(BestMatchHover.java:102)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo(JavaEditorTextHoverProxy.java:69)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:165)
+
+!SESSION 2008-08-11 11:59:06.593 -----------------------------------------------
+eclipse.buildId=M20070921-1145
+java.version=1.5.0_11
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.core.resources 4 567 2008-08-11 12:00:18.890
+!MESSAGE Workspace restored, but some problems occurred.
+!SUBENTRY 1 org.eclipse.core.resources 4 567 2008-08-11 12:00:18.890
+!MESSAGE Could not read metadata for 'ch5'.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: The project description file (.project) for 'ch5' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:660)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:792)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:772)
+	at org.eclipse.core.internal.resources.SaveManager.restore(SaveManager.java:663)
+	at org.eclipse.core.internal.resources.SaveManager.startup(SaveManager.java:1319)
+	at org.eclipse.core.internal.resources.Workspace.startup(Workspace.java:1949)
+	at org.eclipse.core.internal.resources.Workspace.open(Workspace.java:1713)
+	at org.eclipse.core.resources.ResourcesPlugin.start(ResourcesPlugin.java:363)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl$2.run(BundleContextImpl.java:999)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.startActivator(BundleContextImpl.java:993)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.start(BundleContextImpl.java:974)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.startWorker(BundleHost.java:346)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:260)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:400)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:111)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:417)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:189)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findLocalClass(BundleLoader.java:340)
+	at org.eclipse.osgi.framework.internal.core.SingleSourcePackage.loadClass(SingleSourcePackage.java:37)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClassInternal(BundleLoader.java:405)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClass(BundleLoader.java:369)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClass(BundleLoader.java:357)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:83)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClassInternal(Unknown Source)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:107)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:169)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:106)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:76)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:363)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:176)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:508)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:447)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1173)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1148)
+!SUBENTRY 2 org.eclipse.core.resources 4 567 2008-08-11 12:00:18.890
+!MESSAGE The project description file (.project) for 'ch5' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+
+!ENTRY com.tikal.eclipse.updatemanager.quicksetup 4 4 2008-08-11 12:01:15.875
+!MESSAGE Network connection problems encountered during search.
+
+!ENTRY org.eclipse.jdt.core 4 969 2008-08-11 12:08:33.812
+!MESSAGE   does not exist
+
+!ENTRY org.eclipse.jdt.core 4 969 2008-08-11 12:08:35.390
+!MESSAGE   does not exist
+
+!ENTRY org.eclipse.jdt.core 4 969 2008-08-11 12:08:56.187
+!MESSAGE   does not exist
+
+!ENTRY org.eclipse.jdt.core 4 969 2008-08-11 12:09:01.906
+!MESSAGE   does not exist
