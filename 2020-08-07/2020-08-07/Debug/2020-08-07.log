@@ -1,0 +1,14 @@
+﻿生成启动时间为 2020/8/7 20:02:41。
+     1>项目“H:\MyFile\算法\2020-08-07\2020-08-07\2020-08-07.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         F:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt test.cpp
+         test.cpp
+     1>h:\myfile\算法\2020-08-07\2020-08-07\test.cpp(13): error C3381: “Main”: 只有在用 /clr 选项编译的代码中才有程序集访问说明符
+     1>h:\myfile\算法\2020-08-07\2020-08-07\test.cpp(14): error C2144: 语法错误:“void”的前面应有“:”
+     1>h:\myfile\算法\2020-08-07\2020-08-07\test.cpp(14): error C2061: 语法错误: 标识符“String”
+     1>h:\myfile\算法\2020-08-07\2020-08-07\test.cpp(33): fatal error C1004: 发现意外的文件尾
+     1>已完成生成项目“H:\MyFile\算法\2020-08-07\2020-08-07\2020-08-07.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:01.35
